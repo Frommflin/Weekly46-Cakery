@@ -5,9 +5,9 @@
     --indieFlower: 'Indie Flower', cursive;
     --parisienne: 'Parisienne', cursive;
     --white : #ffffff;
-    --primary-light: #AFB49A;
-    --primary: #9AA179;
-    --primary-dark: #39403A;
+    --primary-light: #d4dbba;
+    --primary: #9aa179;
+    --primary-dark: #39403a;
 }
 
 /* General page content styling */
@@ -16,6 +16,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+}
+h1, h2{
+    font-family: var(--parisienne);
+    color: var(--primary);
+    text-shadow: 1px 1px 14px #000000;
 }
 .row{
     margin-top: 10px;
@@ -43,7 +48,7 @@ footer a{
 /* Header styling */
 header{
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     background: url(../Images/cakeheader.jpg) no-repeat center top;
     display: flex;
     flex-direction: column;
@@ -51,7 +56,7 @@ header{
     justify-content: space-around;
 }
 header img{
-    width: 150px;
+    margin: 10px;
     height: 150px;
 }
 nav{
@@ -68,7 +73,7 @@ nav{
 /* Footer styling */
 footer{
     background-color: var(--primary);
-    height: 120px;
+    min-height: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -77,5 +82,4 @@ footer{
 }
 .icons{
     height: 20px;
-    width: 20px;
 }

@@ -1,0 +1,24 @@
+h2{
+    width: 100%;
+    text-align: center;
+}
+.card{
+    padding: 0px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--primary-light);
+}
+.card-body{
+    padding: 0px 20px;
+}
+.cardtitle{
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+}
+.cardprice{
+    color: var(--primary);
+    font-size: small;
+    margin-bottom: 10px;
+    height: 20px;
+}
